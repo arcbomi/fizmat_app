@@ -1,8 +1,8 @@
 import 'package:fizmat_app/widgets/fizNavbar.dart';
 import 'package:flutter/material.dart';
 
-class FizBirthday extends StatelessWidget {
-  const FizBirthday({super.key});
+class FizHome extends StatelessWidget {
+  const FizHome({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +11,7 @@ class FizBirthday extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("birthday page"),
+            Text("home page"),
           ],
         ),
       ),

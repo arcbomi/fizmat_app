@@ -15,7 +15,6 @@ class FizProfile extends StatelessWidget {
   Widget build(BuildContext context) {
     final student = FizCurrentStudent.getCurrentStudent;
     return Scaffold(
-        bottomNavigationBar: FizNavBar(),
         body: Stack(children: [
           FizHeadText(
             top: 50,
