@@ -1,7 +1,3 @@
 {
     "cmake.ignoreCMakeListsMissing": true
 }
-
-"editor.codeActionsOnSave": {
-    "source.fixAll": true
-}
